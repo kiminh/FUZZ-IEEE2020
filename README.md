@@ -8,3 +8,8 @@ We introduce "fuzzy Challenge Response Framework" (fChRF) as a formal model for 
 In this paper, we test these formal concepts in a recommender systems  use-case. A recommender algorithm (trained off-line with a metric) aims to provide users with relevant objects. Observations consist of user behavior in such recommended on-line scenario. 
 
 Using fChRF and fsI we measure which recommender and which off-line metric is the most promising help with respect to user behavior evaluated with several on-line measures. We present results on a real world small e-commerce enterprise A/B testing data. 
+
+## Usage
+- raw results for off-line evaluation are in resultsWithNovDiv_32_0dot01Temporal.rar
+- raw results for on-line evaluation are in log.txt file
+- result processing is done in ChRF_evaluation.ipynb python notebook. Note that raw result files have to be unpacked and it may be necessary to update references to load files in the notebook
